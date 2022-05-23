@@ -1,0 +1,47 @@
+body{
+    background-color: black;
+}
+.news {
+    width: 160px
+}
+
+.news-scroll a {
+    text-decoration: none
+}
+
+.dot {
+    height: 6px;
+    width: 6px;
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-top: 2px !important;
+    background-color: rgb(255, 197, 7);
+    border-radius: 50%;
+    display: inline-block
+}
+.loginclass{
+    color: red;
+}
+
+.text-center {
+    text-align: center;
+    background-color: rgb(118, 114, 109);
+    margin-bottom: 0px;
+  }
+.row {
+    margin: 15px;
+  }
+.carosaltop{
+   margin:5px;
+   width: 85%;
+   height:60%;
+
+}
+.left{
+    margin:0px auto;
+}
+.text-cinema{
+    text-align: center;
+    color: red;
+    margin-top: 10px;
+}

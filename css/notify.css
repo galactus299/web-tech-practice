@@ -1,0 +1,170 @@
+body {
+   
+    /* overflow: scroll; */
+  }
+  
+  .item-menu {
+    flex: 1;
+    margin: 40px 80px;
+    font-family: "Montserrat", Helvetica, sans-serif;
+    font-weight: 200;
+    font-size: 22px;
+    color: #3A3A3A;
+    letter-spacing: 1.5px;
+    line-height: 31.37px;
+    background: none;
+    border: none;
+  }
+  
+  .btn-pill {
+    margin-left: 10px;
+    padding: 3px 15px;
+    display: inline-block;
+    justify-content: center;
+    position: relative;
+    background: #FF3264;
+    font-family: HelveticaNeue-Bold;
+    font-size: 18px;
+    color: #FFFFFF;
+    text-align: center;
+    border-radius: 50px;
+  }
+  
+  .btn-alert {
+    background: rgb(255,50,100)
+  }
+  
+  .btn-danger {
+    background: rgb(252,172,0)
+  }
+  
+  .btn {
+    font-family: "Montserrat", Helvetica, sans-serif;
+    background: none;
+    border: none;
+    font-size: 22px;
+    font-weight: 200;
+    color: #3A3A3A;
+    letter-spacing: 1.5px;
+    text-align: center;
+    transition: 0.1s;
+  }
+  
+  .btn:hover {
+    border-bottom: 5px solid #888888;
+    font-weight: 400;
+    cursor: pointer;
+  }
+  
+  .btn-add {
+    flex: 1;
+    text-align: right;
+    transition: 0.1s;
+  }
+  
+  
+  .btn-add:hover {
+    font-weight: 400;
+    cursor: pointer;
+  }
+  
+  .ntfc-box {
+    width: 370;
+    height: 104;
+    padding: 10px 20px;
+    margin: auto;
+    background: rgba(255,255,255,0.6);
+    box-shadow: 0 3px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 4px;
+    margin: 15px;
+    position: auto;
+  }
+  
+  .ntfc-box:hover {
+    background: rgba(255,255,255,1);
+    box-shadow: 0 3px 16px 0 rgba(0,0,0,0.03);
+    transform: scale(1.02, 1.02);
+    cursor: pointer;
+  }
+  
+  .ntfc-alert {
+    border-bottom: 3px solid rgba(255,50,100,0.8);
+  }
+  
+  .ntfc-danger {
+    border-bottom: 3px solid rgba(252,172,0,0.8);
+  }
+  
+  h2 {
+    display: inline-block;
+    margin-right: 10px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    font-family: "Montserrat", Helvetica, sans-serif;
+    font-size: 14px;
+    color: #545454;
+    letter-spacing: 0;
+    line-height: 24px;
+  }
+  
+  h3 {
+    margin-top: 4px;
+    display: flex-column;
+    opacity: 0.9;
+    font-family: "Montserrat", Helvetica, sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    color: #222629;
+    letter-spacing: 0.4px;
+    line-height: 18.24px;
+  }
+  
+  .ntfc-description {
+    display: flex-column;
+    opacity: 0.9;
+    font-family: "Montserrat", Helvetica, sans-serif;
+    font-size: 13.22px;
+    color: #2D3337;
+    letter-spacing: 0;
+    line-height: 13.54px;
+  }
+  
+  .date {
+    margin-right: 10px;
+  }
+  
+  .time {
+    padding: 10px 15px;
+  }
+  
+  .id {
+    float: right;
+  }
+  
+  .notification-list {
+    margin: auto;
+    width: 450px;
+    position: relative;
+    top: 130px;
+  }
+  
+  
+  @media only screen and (max-width: 1140px) {
+      .btn {
+        font-size: 18px;
+      }
+    
+      .item-menu {
+        font-size: 20px;
+      }
+  }
+  
+  @media only screen and (max-width: 820px) {
+      .btn {
+        font-size: 14px;
+      }
+    
+      .item-menu {
+        font-size: 16px;
+      }
+  }
